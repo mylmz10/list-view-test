@@ -4,6 +4,11 @@ import router from "./router";
 import store from "./store";
 import "./registerServiceWorker";
 
+import { ListView, VTemplate } from "nativescript-vue-web";
+
+Vue.component("ListView", ListView);
+Vue.component("VTemplate", VTemplate);
+
 Vue.config.productionTip = false;
 
 new Vue({
