@@ -1,4 +1,4 @@
-# cli-test-2
+# list-view-test
 
 ## Project setup
 ```
